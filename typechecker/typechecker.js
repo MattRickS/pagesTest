@@ -72,7 +72,6 @@ function checkAnswer()
 
     streakCounter.textContent = streak;
     streakCounter.style.color = (streak > 0) ? "green" : "red";
-    explanation.style.display = "inline-block";
     explanation.textContent = `( ${pythonObject.textContent} is a ${correctType} )`
 
     generateQuestion();
