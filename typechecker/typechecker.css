@@ -1,0 +1,8 @@
+html { padding: 1rem; }
+#question { font-style: italic; }
+#answers { margin: 1em 0; display: flex; flex-direction: column; }
+#pythonObject { margin-left: 2em; }
+#streakDisplay { margin-top: 1em; display: block; }
+#streakCounter { font-size: 1.5em; margin-left: 1em; }
+#explanation { font-style: italic; margin-left: 1em; }
+input[type=radio] { margin-right: 4px; }
